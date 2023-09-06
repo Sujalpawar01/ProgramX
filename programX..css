@@ -1,0 +1,98 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9f7f4;
+}
+
+#chat-window {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #faf6f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#chat-messages {
+  padding: 10px;
+  margin-bottom: 10px;
+ 
+  height: calc(100vh - 200px);
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+#chat-form {
+  position: relative;
+  top: -550px;
+  display: flex;
+  align-items: center;
+}
+
+#chat-input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  color: #0f0f0f;
+  border: none;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.bot-message {
+  position: relative;
+  top: 100px;
+  font-family: "Roboto", sans-serif;
+  background-color: #fffbf5; /* different light color */
+  text-align: justify; /* keep it right-aligned */
+  padding: 15px; /* added padding */
+  margin-top: 10px; /* added margin-top to create a gap */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+
+.user-message {
+  position: relative;
+  top: 100px;
+  font-family: "Nunito", sans-serif;
+  background-color: #f7efe5; 
+  text-align: left; 
+  padding: 15px;  
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+.user-message img,
+.bot-message img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 20px; 
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) {
+  #chat-window {
+    width: 90%;
+  }
+}
+.main-title {
+  position: absolute;
+  left: 600px;
+  padding: 10px;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1rem;
+  color: #060605;
+  font-style: italic;
+}
+.one{
+ 
+  size: 10px;
+}
