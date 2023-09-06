@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+    
+   
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 90px;
+    position: relative;
+    left: 160px;
+}
+
+.active {
+    font-weight: bold;
+   
+}
+
+main {
+    padding: 190px;
+}
+
+#one{
+    padding-bottom: 100px;
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+}
+.main1{
+   
+    text-align: center;
+   font-size: 30px;
+   text-decoration:underline;
+}
+    
+    
+.body1{
+    position: relative;
+    top :-10px;
+}
+.body2{
+    text-align: center;
+    font-size: 20px;
+}
+.body3{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    font-size:20px ;
+}
+.form-group{
+border-radius:10 solid black;
+
+}
+#navbar{
+    text-align: center;
+    color: darkblue;
+}
+#ten{
+    border: 1px solid black;
+    padding: 10px;
+}
+#content{
+    padding: 10px;
+}
+#body{
+    position: relative;
+    right: -50px;
+}
+.one{
+    display: inline-block;
+    border: 1px solid black; 
+    position: relative;
+    right: -300px;
+    background-color: rgb(177,236,236);
+}
+#button{
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
