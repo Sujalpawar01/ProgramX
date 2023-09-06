@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProblemX website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="index1.html">
+    <link rel="stylesheet"href="page.html">
+     <link rel="stylesheet"href="page2.html">
+    <style>
+        
+    </style>
+    <script>
+        function setActiveLink() {
+            var links = document.querySelectorAll("nav a");
+            for (var i = 0; i < links.length; i++) {
+                if (links[i].href === window.location.href) {
+                    links[i].classList.add("active");
+                    break;
+                }
+            }
+        }
+        
+        window.onload = setActiveLink;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ProblemX</h1>
+    </header>
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="index1.html">Problems</a>
+        <a href="#">Maths Problem</a>
+        <a href="page.html">About</a>
+        <a href="page2.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Welcome to our Problem Solving Website</h2>
+        <p>This website is designed to provide solutions to common problems. Browse through our collection of problems and find the solutions that best fit your needs.</p>
+        <script async src="https://cse.google.com/    cse.js?cx=e74a33c746de0445c">
+        </script>
+        <div class="gcse-search"></div>
+       </p> 
+      
+       
+        
+    </main>
+    <footer id="one">
+        <p>© 20236 Problem Solving Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
